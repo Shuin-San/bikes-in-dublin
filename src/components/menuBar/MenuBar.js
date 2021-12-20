@@ -13,7 +13,7 @@ import {
 import IconButton from '@mui/material/IconButton'
 import MenuIcon from '@mui/icons-material/Menu'
 
-const pages = ['Stations', 'Map']
+const pages = []
 
 const MenuBar = () => {
     const [anchorElNav, setAnchorElNav] = useState(null)
