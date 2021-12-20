@@ -52,10 +52,10 @@ I went with Axios for data fetching instead of the native fetch because of 2 mai
 
 _How it functions_
 
-<Stations> contains the filters and acts as a placeholder for the <FavStations> and <StationsList> components
-<FavStations> and <StationsList> Components receive the filters from <Stations> then use Redux store data and do all the filtering (sorry for the one liners)
+Stations contains the filters and acts as a placeholder for the FavStations and StationsList components
+FavStations and StationsList Components receive the filters from Stations then use Redux store data and do all the filtering (sorry for the one liners)
 
-The Stations are displayed using the <StationCard> component, its properties consist of the station data passed by <FavStations> and <StationsList> during the Array.map() method used to iterate through the array of available stations.
+The Stations are displayed using the StationCard component, its properties consist of the station data passed by FavStations and StationsList during the Array.map() method used to iterate through the array of available stations.
 
 In the station card, we have a button to open the link to google maps with the correct coordinates, and a favorite button manages the state of favorite stations.
 
