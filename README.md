@@ -61,9 +61,17 @@ In the station card, we have a button to open the link to google maps with the c
 
 _If this was a real product, what would I implement_
 
-- As already expressed , Redux Toolkit Query -> data caching, data fetching and slice creation all in one. Because this would obviously need more features. More features = more state to manage
 - TypeScript : typing data prevents future errors, bonus : IDE autocompletes :)
+- As already expressed , Redux Toolkit Query -> data caching, data fetching and slice creation all in one. Because this would obviously need more features. More features = more state to manage
 - Express backend / nextjs application where the provided static JSON file could've been used to generate a real API where data could've been filtered and endpoints would've been created to load only what's needed
 - I guess real time data would've been loaded (instead of a static json file). For that case we could leverage GraphQL as an option here with its subscriptions, schemas and types
 - Maybe also leverage the service workers for offline availability
 - Add data persistence, if no database available, on localStorage or use a DB to persist favorites and even go further and create user accounts stored on a noSQL db (eg mongoDB + Realm + Apollo)
+
+_Functionalities I would add_
+
+- More Filters (station status, services offered etc)
+- Display station status / services with color coded icons
+- Offer choice between Map View / List View
+- Show distance based on current location (never done that, would be great to learn how to do that)
+- Offer a better UI / color theme
